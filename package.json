@@ -1,0 +1,28 @@
+{
+  "name": "brain-dump",
+  "version": "0.0.0",
+  "description": "code for my brain dump talk",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src",
+    "ci": "npm test && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahtnam/brain-dump.git"
+  },
+  "author": "Manthan Mallikarjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nahtnam/brain-dump/issues"
+  },
+  "homepage": "https://github.com/nahtnam/brain-dump#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jest": "^22.5.1",
+    "jest": "^24.7.1"
+  }
+}
